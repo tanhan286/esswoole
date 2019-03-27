@@ -24,12 +24,13 @@ class Index extends Controller
     }
 
 
-    function wJson(){
-	$data = [
-	    "id" => 1,
-	    "name" => "abc"
-	];
-	
-	return $this->writeJson('200',$data,'suc');
+    function wJson()
+    {
+        $data = [
+            "id" => 1,
+            "name" => "abc"
+        ];
+
+        return $this->writeJson('200', $data, 'suc');
     }
 }
