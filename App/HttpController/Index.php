@@ -1,15 +1,14 @@
 <?php
 
 namespace App\HttpController;
-
-use EasySwoole\Http\AbstractInterface\Controller;
+use App\HttpController\Api\Base;
 
 
 /**
  * Class Index
  * @package App\HttpController
  */
-class Index extends Controller
+class Index extends Base
 {
     /**
      * 首页方法
