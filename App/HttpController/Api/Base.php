@@ -27,9 +27,9 @@ class Base extends Controller
     }
 
 
-    function onRequest($action) {
-        return true;
-    }
+//    function onRequest($action) {
+//        return true;
+//    }
 
 
 }
